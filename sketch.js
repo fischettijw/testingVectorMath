@@ -1,6 +1,4 @@
-let p;
-let n;
-let sum;
+let p, n, sum, mult, avg;
 
 
 function setup() {
@@ -15,7 +13,9 @@ function setup() {
     sum.sub(p[0]);
     console.log(`sum of p[1] to p[${n-1}]`, sum.x, sum.y);
 
-    let avg = sum.div(n - 1);
+    avg = sum.div(n - 1);
     console.log(`avg of p[1] to p[${n-1}]`, avg.x, avg.y);
 
+    mult = avg.mult(3);
+    console.log(`multipy avg by 3  -  `, mult.x, mult.y);
 }
