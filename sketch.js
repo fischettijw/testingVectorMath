@@ -2,7 +2,7 @@ let p, n, sum, mult, avg;
 
 
 function setup() {
-    n = 9;
+    n = 99;
     p = [];
     n = 3;
     sum = createVector(0, 0);
